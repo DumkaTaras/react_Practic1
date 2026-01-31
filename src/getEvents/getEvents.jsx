@@ -66,7 +66,6 @@ export const GetEvents = ({ name, location, speaker, time, timeEnd }) => {
 
     let timeSession = timearray.slice(counter, timearray.length);
     let End_Session = end_timearray.slice(counter,end_timearray.length);
-    console.log(timeSession,End_Session);
 
     counter = 0;
     startHour = "";
@@ -87,7 +86,6 @@ export const GetEvents = ({ name, location, speaker, time, timeEnd }) => {
 
     startHour = Number(startHour);
     endHour = Number(endHour);
-    console.log("Початок сеансу о", startHour, "годині", timeSession,   'кінець -', endHour);
 
     startminutes = "";
     endMinutes = "";
@@ -103,7 +101,6 @@ export const GetEvents = ({ name, location, speaker, time, timeEnd }) => {
     }
     startminutes = Number(startminutes);
     endMinutes = Number(endMinutes);
-    console.log("O", startminutes, "хвилин", '-----', endMinutes);
   }
   GetTime();
 
