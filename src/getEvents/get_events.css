@@ -1,0 +1,17 @@
+.post{
+    display: flex;
+    flex-direction: column;
+    gap: -28px;
+    text-align: start;
+    align-items: start;
+    justify-content: start;
+    padding: 10px;
+    line-height: 14px;
+    width: 300px;
+    padding-bottom: 25px;
+}
+
+.post>h1{
+    font-size: 24px;
+    line-height: 10px;
+}
